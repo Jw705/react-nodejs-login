@@ -27,10 +27,8 @@ function Login(props) {
           headers: {      // headers: API 응답에 대한 정보를 담음
             "content-type": "application/json",
           },
-          // body: 전달할 내용. 통신할때는 객체로 통신하기에 객체 타입으로 작성해야 함
           body: JSON.stringify(userData), //userData라는 객체를 보냄
         })
-          //추가된 부분
           .then((res) => res.json())
           .then((json) => {            
             if(json.isLogin==="True"){
@@ -80,10 +78,8 @@ function Signin(props) {
           headers: {      // headers: API 응답에 대한 정보를 담음
             "content-type": "application/json",
           },
-          // body: 전달할 내용. 통신할때는 객체로 통신하기에 객체 타입으로 작성해야 함
           body: JSON.stringify(userData), //userData라는 객체를 보냄
         })
-          //추가된 부분
           .then((res) => res.json())
           .then((json) => {
             if(json.isSuccess==="True"){

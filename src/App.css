@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
-  background-color: #AAA2C2;
+  background-color: rgb(150, 209, 148);
   margin: 50px;
 
 }
@@ -39,13 +39,13 @@ body {
 .login:focus,
 .login:hover {
   outline: none;
-  border-bottom-color: #6A679E;
+  border-bottom-color: rgb(68, 112, 67);
 }
 
 .btn {
   border: none;
   width: 75%;
-  background-color: #6A679E;
+  background-color: rgb(68, 112, 67);
   color: white;
   padding: 15px 0;
   font-weight: 600;
@@ -55,5 +55,5 @@ body {
 }
 
 .btn:hover {
-  background-color: #595787;
+  background-color: rgb(49, 82, 48);
 }
